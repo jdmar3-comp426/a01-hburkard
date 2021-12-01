@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jdmar3-comp426/a01-hburkard#readme",
   "dependencies": {
-    "browser-sync": "^2.27.7"
+    "browser-sync": "^2.27.7",
+    "browsersync": "^0.0.1-security"
   }
 }

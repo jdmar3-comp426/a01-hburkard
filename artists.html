@@ -1,26 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Artists Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Artist Page</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
+
     <body>
-        <h1>About Us</h1>
-        <n1>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="artists.html">Artists</a></li>
-            <li><a href="location.html">Location</a></li>
-        </n1>
-        <br>
-        <p1>List of Artists:</p1>
-        <n2>
-            <li>Rosemary Street Market</li>
-            <li>Gallery 542</li>
-            <li>Sarah Weiss</li>
-            <li>Brik-N-Brak</li>
-            <li>Sam Schulte</li>
-        </n2>
-        
+        <div class="header">
+            <h1>
+                Drift Marketplace
+            </h1>
+        </div>
+
+        <nav class="menu">
+            <ul class="nav">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./about.html">About Us</a>
+                </li>
+                <li>
+                    <a id="thispage" href="./artists.html">Artists</a>
+                </li>
+                <li>
+                    <a href="./artwork.html">Artwork</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <h2>
+                Artists
+            </h2>
+            <p class="p1">
+                All of the artists who showcase their work in the storefront are UNC students or student-owned businesses.
+            </p>
+            <p class="p1">
+                Our artists work with canvas, mixed-media, prints, rugs, and clothing.
+            </p>
+            <p class="p1">
+                Click below to check out their artwork!
+            </p>
+        </div>
+        <nav class="menu">
+            <ul class="list">
+                <li>
+                    <a href="./artwork.html">Rosemary Street Market</a>
+                </li>
+                <li>
+                    <a href="./artwork.html">Gallery 542</a>
+                </li>
+                <li>
+                    <a href="./artwork.html">Sarah Weiss</a>
+                </li>
+                <li>
+                    <a href="./artwork.html">Brik-N-Brak</a>
+                </li>
+                <li>
+                    <a href="./artwork.html">Sam Schulte</a>
+                </li>
+            </ul>
+        </nav>
+        <figure class="logo">
+            <img src="drift.svg" alt="Drift Marketplace Logo" class="logo">            
+            <figcaption>Founded in 2021</figcaption>
+        </figure>
     </body>
-    
 </html>
