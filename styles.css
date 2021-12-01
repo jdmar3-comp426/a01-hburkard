@@ -71,3 +71,7 @@ div.desc {
 figure figcaption{
     text-align: center;
 }
+
+#hello {
+    font-family: "Consolas", "monaco", monospace;
+}
